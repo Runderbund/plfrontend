@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# /build
+# Taking out to push pictures to Amplify
 
 # misc
 .DS_Store
