@@ -1,0 +1,55 @@
+.result {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1em;
+  padding: 1em;
+  border-radius: 1em;
+
+  color: white;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+}
+
+.result tr:nth-child(even) {
+  background-color: rgb(115, 162, 202);
+}
+
+.result tr:nth-child(odd) {
+  background-color: rgb(90, 129, 163);
+}
+
+.result table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.result th {
+  background-color: rgb(49, 113, 170);
+}
+.result th,
+.result td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 6.25%;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.successfulLift {
+  background-color: green;
+}
+
+.failedLift {
+  background-color: red;
+}
+
+.lifterLink {
+  margin: 10px 0;
+  color: white;
+  text-decoration: underline;
+  font-size: 1em;
+}
