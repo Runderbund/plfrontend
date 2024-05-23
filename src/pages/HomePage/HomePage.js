@@ -12,6 +12,7 @@ const HomePage = () => {
     <div className="container">
       <h1>Welcome to Bear Steel Powerlifting</h1>
       <img src={logo} alt="Logo" className={styles.logo} />
+        {/* Move this line to CSS, like Navbar? */}
     </div>
   );
 };
