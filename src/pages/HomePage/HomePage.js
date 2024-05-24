@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./HomePage.module.css";
-import navBanner from "../../assets/images/Banner.jpg";
 import "../../App.css";
 
 /**
@@ -12,7 +11,6 @@ const HomePage = () => {
     <div className="container">
       <h1>Welcome to Bear Steel Powerlifting</h1>
       <div className={styles.logo}></div>
-      <img src={navBanner} alt="Banner" />
     </div>
   );
 };
